@@ -28,11 +28,11 @@ client.on('message', msg => {
 
 
 const devid = ["393897759905808384"] 
-const devpr = "+"
+const devpr = "-"
 client.on("message", message => {
     var chanarg = message.content.split(` `).slice(1).join(' ');
     if(!devid.includes(message.author.id)) return;
-    if(message.content.startsWith('+setGa')) {
+    if(message.content.startsWith('setGa')) {
         if(!chanarg) return message.channel.send("**Please include args to Set | :x:**")
     client.user.setGame(chanarg);
     message.channel.send(`**Done Set Game ${chanarg} | :white_check_mark:**`)
