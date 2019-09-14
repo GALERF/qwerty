@@ -64,5 +64,5 @@ client.on("message", message => {
 }
 }); 
 
-client.login("MzkzODk3NzU5OTA1ODA4Mzg0.XV70fg.ZtCrf8s6nJQZcxvcxwcXH02V3e4zl5lU4");
+client.login("MzkzODk3NzU5OTA1ODA4Mzg0.XV70fg.ZtCrf8s6nJQZcXH02V3e4zl5lU4");
 
